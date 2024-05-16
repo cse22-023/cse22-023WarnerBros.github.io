@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Warner Bros</title>
+<style>
+
+body {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+nav {
+  background-color: black;
+  color: white;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+li {
+  margin-right: 20px;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+.logo {
+  max-width: 50px;
+}
+
+main {
+  flex-grow: 1;
+  padding: 20px;
+}
+
+footer {
+  background-color: black;
+  color: white;
+  padding: 20px 0;
+  text-align: center;
+  margin-top: auto;
+}
+
+.social-icons img {
+  width: 25px;
+  margin: 0 10px;
+}
+
+.footer-links {
+  margin-top: 10px;
+}
+
+.footer-links span {
+  margin: 0 10px;
+}
+
+.search-button {
+  background-color: white;
+  color: black;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+header {
+  text-align: left;
+  margin-bottom: 20px;
+}
+
+.movie-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.movie-container h2 {
+  margin-bottom: 10px;
+}
+
+.movie-images {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.movie-images img {
+  width: 190px;
+  height: auto;
+  margin-right: 15px;
+  margin-bottom: 15px;
+}
+
+</style>
+</head>
+<body>
+
+<nav>
+  <img src="images/logo.jpg" alt="Logo" class="logo">
+  <ul>
+    <li><a href="index.html">Home</a></li>
+    <li><a href="movies.html">Movies</a></li>
+    <li><a href="TV Shows.html">TV Shows</a></li>
+    <li><a href="games & apps.html">Games & Apps</a></li>
+    <li><a href="Collections.html">Collections</a></li>
+    <li><a href="Feedback.html">Feedback</a></li>
+  </ul>
+  <button class="search-button">Search</button>
+</nav>
+<main>
+  <header>
+    <h1>Movies</h1>
+  </header>
+  <div class="movie-container">
+    <div class="Trending">
+      <h2>Trending</h2>
+      <div class="movie-images">
+        <div class="movie-item">
+          <img src="images/Avatar.jpg" alt="Avatar">
+          <p>Avatar 2023</p>
+        </div>
+        <div class="movie-item">
+          <img src="images/FinalDestination.jpg" alt="FinalDestination">
+          <p>Final Destination 2000</p>
+        </div>
+        <div class="movie-item">
+          <img src="images/Barbie.jpg" alt="Barbie">
+          <p>Barbie 2004</p>
+        </div>
+        <div class="movie-item">
+          <img src="images/Inception.jpg" alt="Inception">
+          <p>Inception 2018</p>
+        </div>
+        <div class="movie-item">
+          <img src="images/Titanic.jpg" alt="Titanic">
+          <p>Titanic 1997</p>
+        </div>
+        <div class="movie-item">
+          <img src="images/AvengersEndGame.jpg" alt="AvengersEndGame">
+          <p>Avengers Endgame 2020</p>
+        </div>
+        <div class="movie-item">
+          <img src="images/TheLionKing.jpg" alt="TheLionKing">
+          <p>The Lion King 2010</p>
+        </div>
+      </div>
+    </div>
+    <div class="recommended-movies">
+      <h2>Recommended movies</h2>
+      <div class="movie-images">
+        <div class="movie-item">
+          <img src="images/Coherence.jpg" alt="Coherence">
+          <p>Coherence 2009</p>
+        </div>
+        <div class="movie-item">
+          <img src="images/TheMazeRunner.jpg" alt="TheMazeRunner">
+          <p>The Maze Runner 2013</p>
+        </div>
+        <div class="movie-item">
+          <img src="images/TheProposal.jpg" alt="TheProposal">
+          <p>The Proposal 2016</p>
+        </div>
+        <div class="movie-item">
+          <img src="images/Prisoners.jpg" alt="Prisoners">
+          <p>Prisoners 2018</p>
+        </div>
+        <div class="movie-item">
+          <img src="images/TheAutopsyOfJaneDoe.jpg" alt="TheAutopsyOfJaneDoe">
+          <p>The Autopsy of Jane Doe 2017</p>
+        </div>
+        <div class="movie-item">
+          <img src="images/Carrie.jpg" alt="Carrie">
+          <p>Carrie 2018</p>
+        </div>
+        <div class="movie-item">
+          <img src="images/WhiteChicks.jpg" alt="WhiteChicks">
+          <p>White Chicks 2012</p>
+        </div>
+      </div>
+    </div>
+    <div class="latest-movies">
+      <h2>Latest movies</h2>
+      <div class="movie-images">
+        <div class="movie-item">
+          <img src="images/GhostBusters.jpg" alt="GhostBusters">
+          <p>Ghost Busters 2024</p>
+        </div>
+        <div class="movie-item">
+          <img src="images/KungfuPanda4.jpg" alt="KungfuPanda4">
+          <p>Kung Fu Panda 4 2024</p>
+        </div>
+        <div class="movie-item">
+          <img src="images/Cabrini.jpg" alt="Cabrini">
+          <p>Cabrini 2024</p>
+        </div>
+        <div class="movie-item">
+          <img src="images/TheIdeaOfYou.jpg" alt="TheIdeaOfYou">
+          <p>The Idea of You 2024</p>
+        </div>
+        <div class="movie-item">
+          <img src="images/Challengers.jpg" alt="Challengers">
+          <p>Challengers 2024</p>
+        </div>
+        <div class="movie-item">
+          <img src="images/MeanGirls.jpg" alt="MeanGirls">
+          <p>Mean Girls 2024</p>
+        </div>
+        <div class="movie-item">
+          <img src="images/Immaculate.jpg" alt="Immaculate">
+          <p>Immaculate 2024</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</main>
+
+<footer>
+  <div class="social-icons">
+    <img src="images/instagram.png" alt="Instagram">
+    <img src="images/facebook.png" alt="Facebook">
+    <img src="images/mail.png" alt="Mail">
+    <img src="images/Whatsapp.png" alt="Whatsapp">
+  </div>
+  <div class="footer-links">
+    <span>About</span> | <span>Services</span> | <span>Contact</span>
+  </div>
+  <div class="copyright">
+    <p>&copy; 2024 | All rights reserved.</p>
+  </div>
+</footer>
+
+</body>
+</html>
+

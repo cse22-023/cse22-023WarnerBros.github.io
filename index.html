@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Warner Bros</title>
+<style>
+  body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+  }
+
+  nav {
+    background-color: black;
+    color: white;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+  }
+
+  li {
+    margin-right: 20px;
+  }
+
+  a {
+    text-decoration: none;
+    color: white;
+  }
+
+  .logo {
+    max-width: 50px;
+  }
+
+  main {
+    flex-grow: 1;
+    padding: 20px;
+  }
+
+  footer {
+    background-color: black;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+    margin-top: auto;
+  }
+
+  .social-icons img {
+    width: 25px;
+    margin: 0 5px;
+  }
+
+  .footer-links {
+    margin-top: 5px;
+  }
+
+  .footer-links span {
+    margin: 0 5px;
+  }
+
+  copyright {
+    margin-top: 20px;
+  }
+
+  .search-button {
+    background-color: white;
+    color: black;
+    border: none;
+    padding: 8px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+
+  .popular-movies {
+    color: black;
+    text-align: left;
+    margin-bottom: 20px;
+    margin-left: 20px;
+  }
+
+  .movie-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 0 -10px;
+  }
+
+  .movie {
+    margin: 10px;
+    text-align: center;
+    width: 200px;
+  }
+
+  .movie img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+  }
+
+  .movie p {
+    margin-top: 10px;
+  }
+</style>
+</head>
+<body>
+
+<nav>
+  <img src="images/logo.jpg" alt="Logo" class="logo">
+  <ul>
+    <li><a href="index.html">Home</a></li>
+    <li><a href="movies.html">Movies</a></li>
+    <li><a href="TV Shows.html">TV Shows</a></li>
+    <li><a href="games & apps.html">Games & Apps</a></li>
+    <li><a href="Collections.html">Collections</a></li>
+    <li><a href="Feedback.html">Feedback</a></li>
+  </ul>
+  <button class="search-button">Search</button>
+</nav>
+
+<main>
+  <h2 class="popular-movies">Popular Movies</h2>
+  <div class="movie-container">
+    <div class="movie">
+      <img src="images/Frozen.jpg" alt="Frozen">
+      <p>Frozen 2013</p>
+    </div>
+    <div class="movie">
+      <img src="images/HomeAlone.jpg" alt="HomeAlone">
+      <p>Home Alone 1990</p>
+    </div>
+    <div class="movie">
+      <img src="images/IT.jpg" alt="IT">
+      <p>IT 2017</p>
+    </div>
+    <div class="movie">
+      <img src="images/Oldboy.jpg" alt="Oldboy">
+      <p>Oldboy 2013</p>
+    </div>
+    <div class="movie">
+      <img src="images/JohnWick2.jpg" alt="JohnWick2">
+      <p>John Wick 2 2017</p>
+    </div>
+    <div class="movie">
+      <img src="images/TheLittleMermaid.jpg" alt="TheLittleMermaid">
+      <p>The Little Mermaid 2023</p>
+    </div>
+    <div class="movie">
+      <img src="images/TheAmazingSpiderman.jpg" alt="TheAmazingSpiderman">
+      <p>The Amazing Spiderman 2012</p>
+    </div>
+    <div class="movie">
+      <img src="images/MonsterHouse.jpg" alt="MonsterHouse">
+      <p>Monster House 2006</p>
+    </div>
+    <div class="movie">
+      <img src="images/Forgotten.jpg" alt="Forgotten">
+      <p>Forgotten 2017</p>
+    </div>
+    <div class="movie">
+      <img src="images/Dune.jpg" alt="Dune">
+      <p>Dune 2021</p>
+    </div>
+    <div class="movie">
+      <img src="images/GoneGirl.jpg" alt="GoneGirl">
+      <p>Gone Girl 2014</p>
+    </div>
+    <div class="movie">
+      <img src="images/Tangled.jpg" alt="Tangled">
+      <p>Tangled 2010</p>
+    </div>
+    <div class="movie">
+      <img src="images/TheIncredibles.jpg" alt="TheIncredibles">
+      <p>The Incredibles 2004</p>
+    </div>
+    <div class="movie">
+      <img src="images/FinalDestination.jpg" alt="FinalDestination">
+      <p>Final Destination 2000</p>
+    </div>
+    <div class="movie">
+      <img src="images/Avatar.jpg" alt="Avatar">
+      <p>Avatar 2009</p>
+    </div>
+    <div class="movie">
+      <img src="images/Inception.jpg" alt="Inception">
+      <p>Inception 2010</p>
+    </div>
+  </div>
+</main>
+
+<footer>
+  <div class="social-icons">
+    <img src="images/instagram.png" alt="Instagram">
+    <img src="images/facebook.png" alt="Facebook">
+    <img src="images/mail.png" alt="Mail">
+    <img src="images/Whatsapp.png" alt="Whatsapp">
+  </div>
+  <div class="footer-links">
+    <span>About</span> | <span>Services</span> | <span>Contact</span>
+  </div>
+  <div class="copyright">
+    <p>&copy; 2024 | All rights reserved.</p>
+  </div>
+</footer>
+
+</body>
+</html>
