@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Warner Bros</title>
+<style>
+
+body {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+nav {
+  background-color: black;
+  color: white;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+li {
+  margin-right: 20px;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+.logo {
+  max-width: 50px;
+}
+
+main {
+  flex-grow: 1;
+  padding: 20px;
+}
+
+footer {
+  background-color: black;
+  color: white;
+  padding: 20px 0;
+  text-align: center;
+  margin-top: auto;
+}
+
+.social-icons img {
+  width: 25px;
+  margin: 0 10px;
+}
+
+.footer-links {
+  margin-top: 10px;
+}
+
+.footer-links span {
+  margin: 0 10px;
+}
+
+.search-button {
+  background-color: white;
+  color: black;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+header {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.GamesApps-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.GamesApps-images {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.GamesApps-item {
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
+
+.GamesApps-item img {
+  width: 190px; 
+  height: auto; 
+}
+
+.GamesApps-item p {
+  margin-top: 5px;
+  text-align: center;
+}
+
+</style>
+</head>
+<body>
+
+<nav>
+  <img src="images/logo.jpg" alt="Logo" class="logo">
+  <ul>
+    <li><a href="index.html">Home</a></li>
+    <li><a href="movies.html">Movies</a></li>
+    <li><a href="TV Shows.html">TV Shows</a></li>
+    <li><a href="games & apps.html">Games & Apps</a></li>
+    <li><a href="Collections.html">Collections</a></li>
+    <li><a href="Feedback.html">Feedback</a></li>
+  </ul>
+  <button class="search-button">Search</button>
+</nav>
+
+<main>
+  <header>
+    <h1>Games & Apps</h1>
+  </header>
+  <div class="GamesApps-container">
+    <div class="PopularGames">
+      <h2>Popular Games</h2>
+      <div class="GamesApps-images">
+        <div class="GamesApps-item">
+          <img src="images/Sims4.jpg" alt="Sims4">
+          <p>The Sims 4</p>
+        </div>
+        <div class="GamesApps-item">
+          <img src="images/Zelda.jpg" alt="Zelda">
+          <p>Zelda</p>
+        </div>
+        <div class="GamesApps-item">
+          <img src="images/Valorant.jpg" alt="Valorant">
+          <p>Valorant</p>
+        </div>
+        <div class="GamesApps-item">
+          <img src="images/RoadBlasters.jpg" alt="RoadBlasters">
+          <p>RoadBlasters</p>
+        </div>
+        <div class="GamesApps-item">
+          <img src="images/TheLastOfUs.jpg" alt="TheLastOfUs">
+          <p>TheLastOfUs</p>
+        </div>
+        <div class="GamesApps-item">
+          <img src="images/Uncharted.jpg" alt="Uncharted">
+          <p>Uncharted</p>
+        </div>
+        <div class="GamesApps-item">
+          <img src="images/PUBG.jpg" alt="PUBG">
+          <p>Game 7</p>
+        </div>
+      </div>
+    </div>
+    <div class="PopularApps">
+      <h2>Popular Apps</h2>
+      <div class="GamesApps-images">
+        <div class="GamesApps-item">
+          <img src="images/HogwartsMystery.jpg" alt="HogwartsMystery">
+          <p>Hogwarts Mystery</p>
+        </div>
+        <div class="GamesApps-item">
+          <img src="images/CODMobile.jpg" alt="CODMobile">
+          <p>CODMobile</p>
+        </div>
+        <div class="GamesApps-item">
+          <img src="images/MonopolyGo.jpg" alt="MonopolyGo">
+          <p>MonopolyGo</p>
+        </div>
+        <div class="GamesApps-item">
+          <img src="images/Solitaire.jpg" alt="Solitaire">
+          <p>Solitaire</p>
+        </div>
+        <div class="GamesApps-item">
+          <img src="images/TempleRun.jpg" alt=TempleRun">
+          <p>TempleRun</p>
+        </div>
+        <div class="GamesApps-item">
+          <img src="images/SeriesFlix.jpg" alt="SeriesFlix">
+          <p>SeriesFlix</p>
+        </div>
+        <div class="GamesApps-item">
+          <img src="images/Netflix.jpg" alt="Netflix">
+          <p>Netflix</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</main>
+
+<footer>
+  <div class="social-icons">
+    <img src="images/instagram.png" alt="Instagram">
+    <img src="images/facebook.png" alt="Facebook">
+    <img src="images/mail.png" alt="Mail">
+    <img src="images/Whatsapp.png" alt="Whatsapp">
+  </div>
+  <div class="footer-links">
+    <span>About</span> | <span>Services</span> | <span>Contact</span>
+  </div>
+  <div class="copyright">
+    <p>&copy; 2024 | All rights reserved.</p>
+  </div>
+</footer>
+
+</body>
+</html>
