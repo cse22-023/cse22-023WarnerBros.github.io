@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Warner Bros</title>
+<style>
+
+body {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+nav {
+  background-color: black;
+  color: white;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+li {
+  margin-right: 20px;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+.logo {
+  max-width: 50px;
+}
+
+main {
+  flex-grow: 1;
+  padding: 20px;
+}
+
+footer {
+  background-color: black;
+  color: white;
+  padding: 20px 0;
+  text-align: center;
+  margin-top: auto;
+}
+
+.social-icons img {
+  width: 25px;
+  margin: 0 10px;
+}
+
+.footer-links {
+  margin-top: 10px;
+}
+
+.footer-links span {
+  margin: 0 10px;
+}
+
+.search-button {
+  background-color: white;
+  color: black;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+header {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.TVShow-container {
+  display: flex;
+  flex-direction: column; /* Change to column */
+}
+
+.TVShow-images {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.TVShow-images img {
+  width: 190px; 
+  height: auto; 
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
+
+</style>
+</head>
+<body>
+
+<nav>
+  <img src="images/logo.jpg" alt="Logo" class="logo">
+  <ul>
+    <li><a href="index.html">Home</a></li>
+    <li><a href="movies.html">Movies</a></li>
+    <li><a href="TV Shows.html">TV Shows</a></li>
+    <li><a href="games & apps.html">Games & Apps</a></li>
+    <li><a href="Collections.html">Collections</a></li>
+    <li><a href="Feedback.html">Feedback</a></li>
+  </ul>
+  <button class="search-button">Search</button>
+</nav>
+
+<main>
+  <header>
+    <h1>TV Shows</h1>
+  </header>
+  <div class="TVShow-container">
+    <div class="Trending">
+      <h2>Trending</h2>
+      <div class="TVShow-images">
+        <div class="TVShow-item">
+          <img src="images/GameOfThrones.jpg" alt="GameOfThrones">
+          <p>Game of Thrones 2011</p>
+        </div>
+        <div class="TVShow-item">
+          <img src="images/Bridgerton.jpg" alt="Bridgerton">
+          <p>"Bridgerton 2020</p>
+        </div>
+        <div class="TVShow-item">
+          <img src="images/StrangerThings.jpg" alt="StrangerThings">
+          <p>StrangerThings 2019</p>
+        </div>
+        <div class="TVShow-item">
+          <img src="images/AttackOnTitan.jpg" alt="AttackOnTitan">
+          <p>AttackOnTitan 2013</p>
+        </div>
+        <div class="TVShow-item">
+          <img src="images/You.jpg" alt="You">
+          <p>You 2020</p>
+        </div>
+        <div class="TVShow-item">
+          <img src="images/Beef.jpg" alt="Beef">
+          <p>Beef 2023</p>
+        </div>
+        <div class="TVShow-item">
+          <img src="images/YellowJackets.jpg" alt="YellowJackets">
+          <p>YellowJackets 2021</p>
+        </div>
+      </div>
+    </div>
+    <div class="Recommended">
+      <h2>Recommended</h2>
+      <div class="TVShow-images">
+        <div class="TVShow-item">
+          <img src="images/Lucifer.jpg" alt="Lucifer">
+          <p>Lucifer 2016</p>
+        </div>
+        <div class="TVShow-item">
+          <img src="images/BreakingBad.jpg" alt="BreakingBad">
+          <p>BreakingBad 2013</p>
+        </div>
+        <div class="TVShow-item">
+          <img src="images/Friends.jpg" alt="Friends">
+          <p>Friends 1994</p>
+        </div>
+        <div class="TVShow-item">
+          <img src="images/BlackMirror.jpg" alt="BlackMirror">
+          <p>BlackMirror 2011</p>
+        </div>
+        <div class="TVShow-item">
+          <img src="images/YellowStone.jpg" alt="YellowStone">
+          <p>YellowStone 2018</p>
+        </div>
+        <div class="TVShow-item">
+          <img src="images/TheRaid.jpg" alt="TheRaid">
+          <p>TheRaid 2018</p>
+        </div>
+        <div class="TVShow-item">
+          <img src="images/Ozark.jpg" alt="Ozark">
+          <p>Ozark 2020</p>
+        </div>
+      </div>
+    </div>
+    <div class="LatestTV">
+      <h2>Latest TV Shows</h2>
+      <div class="TVShow-images">
+        <div class="TVShow-item">
+          <img src="images/YoungSheldon.jpg" alt="YoungSheldon">
+          <p>Young Sheldon 2024</p>
+        </div>
+        <div class="TVShow-item">
+          <img src="images/Tracker.jpg" alt="Tracker">
+          <p>Tracker 2024</p>
+        </div>
+        <div class="TVShow-item">
+          <img src="images/Chicago.jpg" alt="Chicago">
+          <p>Chicago 2024</p>
+        </div>
+        <div class="TVShow-item">
+          <img src="images/BlueBloods.jpg" alt="BlueBloods">
+          <p>BlueBloods 2024</p>
+        </div>
+        <div class="TVShow-item">
+          <img src="images/Station19.jpg" alt="Station19">
+          <p>Station19 2024</p>
+        </div>
+        <div class="TVShow-item">
+          <img src="images/BMF.jpg" alt="BMF">
+          <p>BMF 2024</p>
+        </div>
+        <div class="TVShow-item">
+          <img src="images/Sugar.jpg" alt="Sugar">
+          <p>Sugar</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</main>
+<footer>
+  <div class="social-icons">
+    <img src="images/instagram.png" alt="Instagram">
+    <img src="images/facebook.png" alt="Facebook">
+    <img src="images/mail.png" alt="Mail">
+    <img src="images/Whatsapp.png" alt="Whatsapp">
+  </div>
+  <div class="footer-links">
+    <span>About</span> | <span>Services</span> | <span>Contact</span>
+  </div>
+  <div class="copyright">
+    <p>&copy; 2024 | All rights reserved.</p>
+  </div>
+</footer>
+
+</body>
+</html>
